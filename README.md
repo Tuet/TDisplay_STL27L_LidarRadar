@@ -43,14 +43,14 @@ single SPI transaction.
 ## Build and flash
 
 ```bash
-# Compile + flash (PlatformIO will pick the only env: ttgo-t-display)
+# Compile + flash (pioarduino/PlatformIO will pick the only env: ttgo-t-display)
 pio run -t upload
 
 # Open the serial monitor at 921600 baud
 pio device monitor
 ```
 
-The PlatformIO configuration lives in [`platformio.ini`](platformio.ini).
+The pioarduino/PlatformIO configuration lives in [`platformio.ini`](platformio.ini).
 Key flags:
 
 - `-D STL27L_POINT_COUNT=720` — number of angular bins per revolution.
