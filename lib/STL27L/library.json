@@ -1,0 +1,26 @@
+{
+    "name": "STL27L",
+    "version": "1.0.0",
+    "description": "Arduino-style driver for the STL-27L 2D LiDAR sensor (LDROBOT D800 family). Hardware-UART packet parser with CRC-8 (polynomial 0x4D) validation and LEDC motor PWM control. See the project README for the full pin hook-up table.",
+    "keywords": [
+        "lidar",
+        "STL-27L",
+        "UART",
+        "ESP32"
+    ],
+    "authors": [
+        {
+            "name": "Local project library"
+        }
+    ],
+    "license": "Unlicense",
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "espressif32"
+    ],
+    "build": {
+        "srcDir": "src"
+    }
+}
